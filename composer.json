@@ -21,7 +21,6 @@
     "friendsofphp/php-cs-fixer": "^2.0",
     "sebastian/phpcpd": "^2.0",
     "jakub-onderka/php-parallel-lint": "^0.9.2",
-    "phpmd/phpmd": "^2.5",
     "nikic/php-parser": "^3.0"
   },
   "autoload": {
