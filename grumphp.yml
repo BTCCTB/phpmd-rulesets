@@ -1,0 +1,30 @@
+parameters:
+    git_dir: .
+    bin_dir: vendor/bin
+    tasks:
+        composer:
+            file: ./composer.json
+            no_check_all: true
+        jsonlint: ~
+        phpcs:
+            standard: "vendor/leaphub/phpcs-symfony2-standard/leaphub/phpcs/Symfony2/"
+            show_warnings: true
+            tab_width: ~
+            whitelist_patterns: []
+            encoding: ~
+            ignore_patterns: []
+            sniffs: []
+            triggered_by: [php]
+        phpcpd:
+            exclude: ['vendor']
+        phplint: ~
+        phpmd:
+            exclude: ['vendor']
+            ruleset: ['unusedcode']
+            triggered_by: [php]
+        phpparser: ~
+        phpversion:
+            project: '7.0'
+        securitychecker: ~
+        xmllint: ~
+        yamllint: ~
