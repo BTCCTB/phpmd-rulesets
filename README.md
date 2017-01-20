@@ -34,8 +34,8 @@ Use [grumphp](https://github.com/phpro/grumphp) and configure phpmd task with th
         phpmd:
             exclude: ['vendor']
             ruleset: [
-              'BTC/PHPMD/Rulesets/symfony.xml', 
-              'BTC/PHPMD/Rulesets/cleancode.xml'
+	      '/vendor/btc/phpmd-rulesets/Rulesets/symfony.xml',
+	      '/vendor/btc/phpmd-rulesets/Rulesets/cleancode.xml'
             ]
             triggered_by: [php]
 
