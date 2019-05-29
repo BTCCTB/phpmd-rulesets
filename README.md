@@ -1,3 +1,6 @@
+# DEPRECATED
+This is no longer supported
+
 # BTC\PHPMD-Rulesets
 
 ## Features
